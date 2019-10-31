@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  {% include head.html %}
+  <body>
+
+    <!-- Header -->
+    {% include header.html %}
+
+
+      <section class="blog b-archives single section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="blog-detail">
+<!--                <div class="b-gallery">
+                   <div class="single-image">
+                    <img src="{{ '/assets/images/regions/' | base_url }}{{ page.main_image }}.jpg" alt="#">
+                  </div>
+                  <div class="single-image">
+                    <img src="{{ '/assets/images/regions/' | base_url }}{{ page.main_image }}.jpg" alt="#">
+                  </div>
+                </div> -->
+                <div class="detail-content">
+                  <div class="blog-info">
+                    <a href="#"><i class="fa fa-building"></i>{{ page.tags[0] }}</a>
+                    <a href="#"><i class="fa fa-globe"></i>{{ page.tags[1] }}</a>
+                    <a href="#"><i class="fa fa-university"></i>{{ page.tags[2] }}</a>
+                  </div>
+                  <h2 class="blog-title"><a href="#">{{ page.title }}</a></h2>
+
+
+                    {{ content }}
+
+                  </div>
+                <div class="blog-bottom">
+                  <ul class="share">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  </ul>
+                  <!-- Next Prev -->
+                  <ul class="prev-next">
+                    <li class="prev"><a href="#"><i class="fa fa-angle-double-left"></i></a></li>
+                    <li class="next"><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
+                  </ul>
+                  <!--/ End Next Prev -->
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+    <!-- Footer -->
+    {% include footer.html %}
+
+    <!-- Scripts -->
+    {% include scripts.html %}
+
+  </body>
+</html>

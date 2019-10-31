@@ -1,0 +1,40 @@
+<!-- Courses -->
+<section class="courses section-bg section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <h2>Seleccione <span>Regi&oacute;n</span> para <span>{{ page.title }}</span> </h2>
+        </div>
+      </div>
+    </div>
+    <div class="card-columns">
+      {% for region in site.data.regions[page.title] %}
+        <!-- Single Course -->
+        <div class="card">
+          <div class="single-course">
+            <div class="course-head">
+              <img src="{{ '/assets/images/regions/' | relative_url }}{{ region.main_image }}.jpg" alt="#">
+            </div>
+            <div class="single-content">
+              <h4><span>Regi&oacute;n</span>{{ region.title }}</h4>
+              {% if region.zones.size %}
+                <ul class="list-group">
+                  <a class="list-group-item list-group-item-action list-group-item-primary">
+                    Zonas ({{ region.zones.size }})
+                  </a>
+                  {% for zone in region.zones %}
+                    <a class="list-group-item list-group-item-action" href="{{ base_url }}/directory/{{ page.title | downcase }}-{{ region.id }}-{{ zone.id }}.html">{{ zone.title | capitalize}}</a>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </div>
+
+          </div>
+        </div>
+        <!--/ End Single Course -->
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!--/ End Courses -->

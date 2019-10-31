@@ -1,0 +1,449 @@
+IBAD:
+  - ancash:
+    id: ancash
+    title: ancash
+    main_image: ancash
+    zones:
+      - id: pacifico
+        title: El Pacifico
+      - id: chuaylas
+        title: Callejon de Huaylas
+  - amazonas:
+    id: amazonas
+    title: amazonas
+    main_image: amazonas
+    zones:
+  - apurimac:
+    id: apurimac
+    title: apurimac
+    main_image: apurimac
+    zones:
+      - id: abancay
+        title: abancay
+  - arequipa:
+    id: arequipa
+    title: arequipa
+    main_image: arequipa
+    zones:
+  - ayacucho:
+    id: ayacucho
+    title: ayacucho
+    main_image: ayacucho
+    zones:
+  - san-martin:
+    id: sanmartin
+    title: san martin
+    main_image: sanmartin
+    zones:
+      - id: huamanga
+        title: huamanga
+      - id: reyes
+        title: rey de reyes
+      - id: huamanga2
+        title: huamanga2
+      - id: huanta
+        title: huanta
+      - id: vraem
+        title: vraem
+  - cajamarca:
+    id: cajamarca
+    title: cajamarca
+    main_image: cajamarca
+    zones:
+      - id: cajamarca
+        title: cajamarca
+  - callao:
+    id: callao
+    title: callao
+    main_image: callao
+    zones:
+  - cusco:
+    id: cusco
+    title: cusco
+    main_image: cusco
+    zones:
+  - huancavelica:
+    id: huancavelica
+    title: huancavelica
+    main_image: huancavelica
+    zones:
+      - id: churcampa
+        title: acobamba
+  - huanuco:
+    id: huanuco
+    title: huánuco
+    main_image: huanuco
+    zones:
+      - id: huanuco
+        title: huanuco
+      - id: tingo
+        title: tingo maria
+      - id: tocache
+        title: tocache
+      - id: yarowilca
+        title: yarowilca
+      - id: lauricocha
+        title: lauricocha
+  - ica:
+    id: ica
+    title: ica
+    main_image: ica
+    zones:
+      - id: ica
+        title: ica
+  - junin:
+    id: junin
+    title: junin
+    main_image: junin
+    zones:
+      - id: acobamba
+        title: sto domingo de acobamba
+      - id: junin
+        title: junin
+      - id: matachaca
+        title: matachaca
+  - la-libertad:
+    id: la-libertad
+    title: la libertad
+    main_image: libertad
+    zones:
+  - lambayeque:
+    id: lambayeque
+    title: lambayeque
+    main_image: lambayeque
+    zones:
+      - id: chiclayo
+        title: chiclayo
+  - lima-centro:
+    id: lima-centro
+    title: lima centro
+    main_image: lima
+    zones:
+  - lima-sur:
+    id: limasur
+    title: lima sur
+    main_image: lima
+    zones:
+  - lima-norte:
+    id: limanorte
+    title: lima norte
+    main_image: lima
+    zones:
+      - id: comas
+        title: comas
+  - lima-nor-este:
+    id: lima-nor-este
+    title: lima nor este
+    main_image: lima
+    zones:
+  - lima-este-central:
+    id: lima-nor-este
+    title: lima este central
+    main_image: lima
+    zones:
+  - lima-provincias:
+    id: lima-provincias
+    title: lima provincias
+    main_image: lima
+    zones:
+  - loreto:
+    id: loreto
+    title: loreto
+    main_image: loreto
+    zones:
+      - id: loreto
+        title: loreto
+  - madre-de-dios:
+    id: madrededios
+    title: madre de dios
+    main_image: madrededios
+    zones:
+  - moquegua:
+    id: moquegua
+    title: moquegua
+    main_image: moquegua
+    zones:
+  - pasco:
+    id: pasco
+    title: pasco
+    main_image: pasco
+    zones:
+  - pataz:
+    id: pataz
+    title: pataz
+    main_image: pataz
+    zones:
+  - piura:
+    id: piura
+    title: piura
+    main_image: piura
+    zones:
+  - puno:
+    id: puno
+    title: puno
+    main_image: puno
+    zones:
+      - id: altiplano
+        title: altiplano puno
+  - tacna:
+    id: tacna
+    title: tacna
+    main_image: tacna
+    zones:
+  - tumbes:
+    id: tumbes
+    title: tumbes
+    main_image: tumbes
+    zones:
+      - id: tumbes
+        title: tumbes
+  - ucayali:
+    id: ucayali
+    title: ucayali
+    main_image: ucayali
+    zones:
+
+IBISEP:
+  - ancash:
+    id: ancash
+    title: ancash
+    main_image: ancash
+    zones:
+      - id: huaraz
+        title: huaraz
+      - id: pariacoto
+        title: pariacoto
+      - id: pampas
+        title: pampas
+      - id: maranon
+        title: marañon
+      - id: huaylas
+        title: huaylas
+  - amazonas:
+    id: amazonas
+    title: amazonas
+    main_image: amazonas
+    zones:
+      - id: bagua
+        title: bagua
+  - apurimac:
+    id: apurimac
+    title: apurimac
+    main_image: apurimac
+    zones:
+      - id: apurimac
+        title: apurimac
+  - arequipa:
+    id: arequipa
+    title: arequipa
+    main_image: arequipa
+    zones:
+  - ayacucho:
+    id: ayacucho
+    title: ayacucho
+    main_image: ayacucho
+    zones:
+      - id: vraem
+        title: san francisco / vraem
+      - id: ayacucho
+        title: ayacucho
+  - cajamarca:
+    id: cajamarca
+    title: cajamarca
+    main_image: cajamarca
+    zones:
+      - id: sanmarcos
+        title: san marcos
+      - id: jaen
+        title: jaen
+  - callao:
+    id: callao
+    title: callao
+    main_image: callao
+    zones:
+  - cusco:
+    id: cusco
+    title: cusco
+    main_image: cusco
+    zones:
+      - id: quillabamba
+        title: quillabamba
+  - huancavelica:
+    id: huancavelica
+    title: huancavelica
+    main_image: huancavelica
+    zones:
+      - id: acobamba
+        title: acobamba
+  - huanuco:
+    id: huanuco
+    title: huánuco
+    main_image: huanuco
+    zones:
+      - id: ambo
+        title: ambo
+      - id: maranon
+        title: marañon
+      - id: pilcomarca
+        title: pilcomarca
+      - id: castillo
+        title: castillo grande / tingo
+      - id: union
+        title: la unión
+      - id: mayo
+        title: 2 de mayo
+      - id: acomayo
+        title: acomayo
+      - id: huamalies
+        title: huamalies
+  - ica:
+    id: ica
+    title: ica
+    main_image: ica
+    zones:
+      - id: pisco
+        title: pisco
+  - junin:
+    id: junin
+    title: junin
+    main_image: junin
+    zones:
+      - id: huancayo
+        title: huancayo
+      - id: pangoa
+        title: san martin de pangoa
+  - la-libertad:
+    id: la-libertad
+    title: la libertad
+    main_image: libertad
+    zones:
+  - lambayeque:
+    id: lambayeque
+    title: lambayeque
+    main_image: lambayeque
+    zones:
+      - id: huarmaca
+        title: huarmaca
+  - lima-centro:
+    id: lima-centro
+    title: lima centro
+    main_image: lima
+    zones:
+  - lima-sur:
+    id: limasur
+    title: lima sur
+    main_image: lima
+    zones:
+      - id: limasur
+        title: lima sur
+  - lima-norte:
+    id: limanorte
+    title: lima norte
+    main_image: lima
+    zones:
+      - id: limanorte
+        title: lima norte
+  - lima-nor-este:
+    id: lima-nor-este
+    title: lima nor este
+    main_image: lima
+    zones:
+  - lima-este-central:
+    id: lima-nor-este
+    title: lima este central
+    main_image: lima
+    zones:
+  - lima-provincias:
+    id: lima-provincias
+    title: lima provincias
+    main_image: lima
+    zones:
+  - loreto:
+    id: loreto
+    title: loreto
+    main_image: loreto
+    zones:
+  - madre-de-dios:
+    id: madrededios
+    title: madre de dios
+    main_image: madrededios
+    zones:
+      - id: tambopata
+        title: tambopata
+  - moquegua:
+    id: moquegua
+    title: moquegua
+    main_image: moquegua
+    zones:
+  - pasco:
+    id: pasco
+    title: pasco
+    main_image: pasco
+    zones:
+      - id: pasco
+        title: pasco
+      - id: oxapampa
+        title: oxapampa
+  - pataz:
+    id: pataz
+    title: pataz
+    main_image: pataz
+    zones:
+      - id: trujillo
+        title: trujillo
+  - piura:
+    id: piura
+    title: piura
+    main_image: piura
+    zones:
+      - id: paita
+        title: paita
+  - puno:
+    id: puno
+    title: puno
+    main_image: puno
+    zones:
+      - id: ilave
+        title: ilave
+      - id: ayaviri
+        title: ayaviri
+      - id: julicollao
+        title: juli collao
+      - id: lacoustre
+        title: la coustre puno
+      - id: sananton
+        title: san anton
+  - san-martin:
+    id: san-martin
+    title: san martin
+    main_image: sanmartin
+    zones:
+  - tacna:
+    id: tacna
+    title: tacna
+    main_image: tacna
+    zones:
+      - id: tacna
+        title: tacna
+  - tumbes:
+    id: tumbes
+    title: tumbes
+    main_image: tumbes
+    zones:
+      - id: tumbes
+        title: tumbes
+  - ucayali:
+    id: ucayali
+    title: ucayali
+    main_image: ucayali
+    zones:
+      - id: ucayali
+        title: ucayali
+  - castillo-rey:
+    id: castillo
+    title: castillo del rey
+    main_image: castillo
+    zones:
+      - id: central
+        title: Central
+
