@@ -1,0 +1,39 @@
+<!-- Events -->
+<section class="events section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title">
+          <h2>Nuestros <span>Anuncios</span> Oficiales</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="event-slider">
+
+            {% for post in site.categories["announce"] %}
+          <!-- Single Event -->
+          <div class="single-event">
+            <div class="head overlay">
+              <img src="{{ '/assets/images/announces/' | relative_url }}{{ post.images[0] }}" alt="#">
+
+              <a href="{{ '/assets/images/announces/' | relative_url }}{{ post.images[0] }}" data-fancybox="photo" class="btn"><i class="fa fa-search"></i></a>
+            </div>
+            <div class="event-content">
+              <div class="meta">
+                <span><i class="fa fa-calendar"></i>{{ post.announce_date }}</span>
+                <span><i class="fa fa-clock-o"></i>{{ post.announce_hour }}</span>
+              </div>
+              <h4><a target="_blank" href="{{ '/assets/images/announces/' | relative_url }}{{ post.adjunt }}">{{ post.title }}</a></h4>
+              <p>{{ post.content }}</p>
+            </div>
+          </div>
+          {% endfor %}
+          <!--/ End Single Event -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/ End Events -->

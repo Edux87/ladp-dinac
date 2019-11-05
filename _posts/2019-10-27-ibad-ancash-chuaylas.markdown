@@ -11,3 +11,4 @@ main_image: ancash
 | email     | - |
 
 INSITUTO BÍBLICO "WALTER ERICKSON"
+
